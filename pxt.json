@@ -4,11 +4,12 @@
     "description": "MbitBot",
     "license": "MIT",
     "dependencies": {
-        "NeoPixel": "github:microsoft/pxt-neopixel"
+        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.1"
     },
     "files": [
         "README.md",
         "main.ts",
+        "neopixel.ts",
         "_locales/zh/mbitbot-strings.json"
     ],
     "public": true
